@@ -1,0 +1,34 @@
+{  
+  "name": "WhiteSnowGirl/yii2-geetest",  
+  "description": "Yii2 WhiteSnowGirl/yii2-geetest",  
+  "keywords": [  
+    "yii2",  
+    "yii2-geetest"  
+  ],  
+  "homepage": "https://github.com/WhiteSnowGirl/yii2-geetest",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/WhiteSnowGirl/yii2-geetest"  
+  },  
+  "authors": [  
+    {  
+      "name": "json",  
+      "email": "125851250@qq.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "WhiteSnowGirl\\geetest\\": "src"  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
