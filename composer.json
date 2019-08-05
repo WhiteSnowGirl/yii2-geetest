@@ -1,15 +1,15 @@
 {  
-  "name": "fengjun/yii2-geetest",  
-  "description": "Yii2 fengjun/yii2-geetest",  
+  "name": "fenglaicode/yii2-geetest",  
+  "description": "Yii2 fenglaicode/yii2-geetest",  
   "keywords": [  
     "yii2",  
     "yii2-geetest"  
   ],  
-  "homepage": "https://github.com/fengjun/yii2-geetest",  
+  "homepage": "https://github.com/fenglaicode/yii2-geetest",  
   "type": "yii2-extension",  
   "license": "MIT",  
   "support": {  
-    "source": "https://github.com/fengjun/yii2-geetest"  
+    "source": "https://github.com/fenglaicode/yii2-geetest"  
   },  
   "authors": [  
     {  
@@ -25,7 +25,7 @@
   },  
   "autoload": {  
     "psr-4": {  
-      "fengjun\\geetest\\": "src"  
+      "fenglaicode\\geetest\\": "src"  
     }  
   },  
   "config": {  
