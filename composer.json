@@ -1,5 +1,5 @@
 {  
-  "name": "fenglaicode/yii2-geetest",  
+  "name": "fenglaicode",  
   "description": "Yii2 fenglaicode/yii2-geetest",  
   "keywords": [  
     "yii2",  
@@ -25,7 +25,7 @@
   },  
   "autoload": {  
     "psr-4": {  
-      "fenglaicode\\geetest\\": "src"  
+      "fenglaicode\\": "src"  
     }  
   },  
   "config": {  
