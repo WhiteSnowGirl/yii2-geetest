@@ -4,7 +4,7 @@ namespace geetest\verify;
 use Yii;
 use yii\base\Component;
 use yii\base\Exception;
-// use \geetest\verify\lib\GeetestLib;
+use \geetest\verify\lib\GeetestLib;
 
 class GeetVerify extends Component
 {
@@ -19,7 +19,7 @@ class GeetVerify extends Component
 
 	public function __construct()
 	{
-		require_once dirname(__FILE__) . '/lib/class.geetestlib.php';
+		// require_once dirname(__FILE__) . '/lib/class.geetestlib.php';
 		$this->GtSdk = new \geetest\verify\lib\GeetestLib(self::CAPTCHA_ID, self::PRIVATE_KEY);
 	}
 
